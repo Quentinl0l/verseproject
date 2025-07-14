@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+nav{
+    display: flex;
+    border: groove;
+    justify-content: center;
+    background-color: rgb(255, 191, 191);
+}
+
+nav>ul>a>li{
+    display: inline-flex;
+    color: rgb(83, 83, 83);
+    margin: 1em;
+    font-size: 2em;
+}
+
+nav>ul>a>li:hover{
+    color: rgb(179, 66, 66);
+}
+
+nav img{
+    width: 5.5em;
+    float: left;
+}
